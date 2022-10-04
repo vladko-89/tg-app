@@ -7,9 +7,7 @@ const tg = window?.Telegram?.WebApp
 export const Header = () => {
 
 
-    useEffect(() => {
-        tg.ready();
-    }, [])
+
 
     const onClose = () => {
         tg.close();
